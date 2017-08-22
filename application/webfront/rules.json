@@ -1,0 +1,10 @@
+[
+  {
+    "Host": "example.cn",
+    "Serve": "/tmp"
+  },
+  {
+    "Host": "example.org",
+    "Forward": "localhost:8080"
+  }
+]
