@@ -256,3 +256,7 @@ goroutine泄露：如果一个goroutine写一个无缓存channel，而这个chan
 
 Once a channel has been closed, you cannot send a value on this channel, but you can still receive from the channel. `v, ok := <- ch` return zero value for `ch` type and `false` indicating the channel has been closed, and will return the same values if it's called repeatedly. As soon as the finish channel is closed, it becomes ready to receive. This powerful idiom allows you to use a channel to send a signal to an unknown number of goroutines, without having to know anything about them, or worrying about deadlock. [A closed channel never blocks](https://dave.cheney.net/2013/04/30/curious-channels)
 
+## Interface values with nil underlying values
+If the concrete value inside the interface itself is nil, the method will be called with a nil receiver.
+In some languages this would trigger a null pointer exception, but in Go it is common to write methods that gracefully handle being called with a nil receiver (as with the method M in this example.)
+Note that an interface value that holds a nil concrete value is itself non-nil.
