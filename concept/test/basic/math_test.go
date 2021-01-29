@@ -1,10 +1,12 @@
 /*
+https://golang.org/pkg/testing/
+
 Asking go test to run your benchmarks does not disable the tests in the package.
 If you want to skip the tests, you can do so by passing a regex to the -run flag
 that will not match anything.
 `go test -run=XXX -bench=.`
 */
-package test
+package basic
 
 import "testing"
 

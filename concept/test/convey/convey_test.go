@@ -1,3 +1,9 @@
+/*
+Writing self-documenting tests is remarkably easy with GoConvey.
+https://github.com/smartystreets/goconvey/wiki/Composition
+GoConvey comes with a lot of standard assertions you can use with So().
+https://github.com/smartystreets/goconvey/wiki/Assertions
+*/
 package convey
 
 import (

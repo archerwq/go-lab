@@ -1,4 +1,4 @@
-package test
+package basic
 
 // Average calculate average of an array of integer
 func Average(data []float64) float64 {
