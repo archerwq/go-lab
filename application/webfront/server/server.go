@@ -3,12 +3,13 @@ package server
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/archerwq/go-lab/applications/webfront/rule"
 	"log"
 	"net/http"
 	"os"
 	"sync"
 	"time"
+
+	"github.com/archerwq/go-lab/application/webfront/rule"
 )
 
 type Server struct {

@@ -2,10 +2,11 @@ package main
 
 import (
 	"flag"
-	"github.com/archerwq/go-lab/applications/webfront/server"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/archerwq/go-lab/application/webfront/server"
 )
 
 var (
