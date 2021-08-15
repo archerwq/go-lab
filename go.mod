@@ -7,7 +7,7 @@ require (
 	github.com/agiledragon/gomonkey/v2 v2.1.0
 	github.com/codahale/hdrhistogram v0.0.0-20161010025455-3a0bb77429bd // indirect
 	github.com/elastic/go-elasticsearch/v7 v7.5.1-0.20200819073753-87810db47c66
-	github.com/go-sql-driver/mysql v1.5.0
+	github.com/go-sql-driver/mysql v1.6.0
 	github.com/golang/mock v1.4.4
 	github.com/golang/protobuf v1.4.2
 	github.com/google/go-cmp v0.4.0
